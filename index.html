@@ -14,7 +14,7 @@
         href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.theme.default.min.css"
         integrity="sha512-sMXtMNL1zRzolHYKEujM2AqCLUR9F2C4/05cdbxjjLSRvMQIciEPCQZo++nk7go3BtSuK9kfa/s+a4f4i5pLkw=="
         crossorigin="anonymous" referrerpolicy="no-referrer" />
-    <title>Document</title>
+    <title>CyberPage</title>
 </head>
 
 <body>
@@ -35,12 +35,12 @@
                 que esteja em sintonia com a identidade visual da sua marca.
             </p>
 
-            <button class="btn-section-headear">SOLICITAR ORÇAMENTO</button>
+            <button class="btn-section-headear" onclick=" window.location.href='#main' ">QUERO SABER MAIS</button>
         </section>
     </header>
 
     <main>
-        <article class="container-p1 reveal fade-left">
+        <article class="container-p1" id="main">
             <h1 class="titulo">
                 Por que criar uma <span>landing page ?</span>
             </h1>
@@ -49,7 +49,7 @@
                 Por que criar uma <br> <span>landing page ?</span>
             </h1>
 
-            <section>
+            <section class="reveal fade-left">
                 <div class="gerar-leads">
                     <img src="./img/user-engagement.png">
 
@@ -85,13 +85,36 @@
                     </p>
                 </div>
             </section>
-
         </article>
 
-        <article class="container-p2 reveal fade-bottom">
+        <article class="container-p2 reveal fade-right">
+            <img class="img-sobre" src="./img/imagem-sobre.svg">
+
+            <aside>
+                <h1>Cyber<span>page</span></h1>
+
+                <h3>
+                    Na Cyberpage trazemos o que há de mais novo
+                    na tecnologia para o desenvolvimento de nossas páginas web.
+                    Colocamos a mão no código para desenvolver cada parte do seu projeto,
+                    aqui seus projetos são levados a sério e desenvolvidos com todo cuidado.
+                </h3>
+
+                <div>
+                    <p> <img src="./img/lancamento-do-foguete.png"> Entrega Rápida </p>
+
+                    <p> <img src="./img/baixo-custo.png"> Preço Acessível </p>
+
+                    <p> <img src="./img/exclusivo.png"> Design Exclusivo e Moderno </p>
+
+                    <p> <img src="./img/responsivo.png"> Site 100% Responsivo </p>
+                </div>
+            </aside>
+        </article>
+        
+        <article class="container-p3 reveal fade-bottom">
             <h1 class="titulo">Conheça algumas das <br> páginas <span>que já desenvolvemos</span></h1>
-            <h1 class="titulo-responsive">Conheça algumas <br> das páginas <span>que já desenvolvemos</span>
-            </h1>
+            <h1 class="titulo-responsive">Conheça algumas <br> das páginas <span>que já desenvolvemos</span></h1>
 
             <div class="owl-carousel owl-theme">
                 <div class="item"><img class="box=filme" src="img/Group 107.svg"></div>
@@ -103,84 +126,69 @@
             </div>
         </article>
 
-        <article class="container-p3 reveal fade-new">
-            <span class="shawdon">
-                <img class="img-sobre" src="./img/Group 111.svg">
-
-                <section class="sobre">
-                    <h1>Cyber<span>page</span></h1>
-
-                    <h3>
-                        Na Cyberpage trazemos o que há de mais novo
-                        na tecnologia para o desenvolvimento de nossas páginas web.
-                        colocamos a mão no código para desenvolver cada parte do seu projeto,
-                        aqui seus projetos são levados a sério e desenvolvidos com todo cuidado.
-                    </h3>
-
-                    <p><img src="./img/lancamento-do-foguete.png">Entrega Rápida</p>
-                    <p><img src="./img/baixo-custo.png">Preço Acessível</p>
-                    <p><img src="./img/exclusivo.png">Design Exclusivo e Moderno</p>
-                    <p><img src="./img/responsivo.png">Site 100% Responsivo</p>
-                </section>
-            </span>
-        </article>
-
-        <article class="container-p4 reveal fade-top">
+        <article class="container-p4 reveal fade-left">
             <h1 class="titulo">Seu site pronto <span>em 4 etapas</span></h1>
             <h1 class="titulo-responsive">Seu site pronto <br> <span>em 4 etapas</span></h1>
 
-            <section>
-                <img src="./img/number-1.png">
+            <div class="content">
+                <section class="section-contato">
+                    <div class="container-number">
+                        <h2>01</h2>
+                    </div>
 
-                <div>
-                    <h2>Contato</h2>
-                    <p>
-                        Você entra em contato conosco, conversamos sobre
-                        o seu projeto e vamos entender qual é a sua ideia.
-                    </p>
-                </div>
-            </section>
-            <div class="icon-seta"><img class="img-etapas" src="./img/seta-para-baixo.png"></div>
+                    <div class="container-text">
+                        <h2>Contato</h2>
+                        <p>
+                            Você entra em contato conosco, conversamos sobre
+                            o seu projeto e vamos entender qual é a sua ideia.
+                        </p>
+                    </div>
+                </section>
 
-            <section>
-                <img src="./img/number-2.png">
+                <section class="section-planejamento">
+                    <div class="container-number">
+                        <h2>02</h2>
+                    </div>
 
-                <div>
-                    <h2>Planejamento</h2>
-                    <p>
-                        Nesta etapa vamos reunir todas as informações,
-                        conteúdos e materiais necessários para definimos
-                        como será criado seu site.
-                    </p>
-                </div>
-            </section>
-            <div class="icon-seta"><img class="img-etapas" src="./img/seta-para-baixo.png"></div>
+                    <div class="container-text">
+                        <h2>Planejamento</h2>
+                        <p>
+                            Nesta etapa vamos reunir todas as informações,
+                            conteúdos e materiais necessários para definimos
+                            como será criado seu site.
+                        </p>
+                    </div>
+                </section>
 
-            <section>
-                <img src="./img/number-3.png">
+                <section class="section-desenvolvimento">
+                    <div class="container-number">
+                        <h2>03</h2>
+                    </div>
 
-                <div>
-                    <h2>Desenvolvimento</h2>
-                    <p>
-                        Agora é o momento que colocamos a mão no código
-                        para desenvolver o projeto implementar os recursos
-                        e fazer os ajustes necessários.
-                    </p>
-                </div>
-            </section>
-            <div class="icon-seta"><img class="img-etapas" src="./img/seta-para-baixo.png"></div>
+                    <div class="container-text">
+                        <h2>Desenvolvimento</h2>
+                        <p>
+                            Agora é o momento que colocamos a mão no código
+                            para desenvolver o projeto implementar os recursos
+                            e fazer os ajustes necessários.
+                        </p>
+                    </div>
+                </section>
 
-            <section>
-                <img src="./img/number-4.png">
+                <section class="section-site-pronto">
+                    <div class="container-number">
+                        <h2>04</h2>
+                    </div>
 
-                <div>
-                    <h2>Site Pronto</h1>
+                    <div class="container-text">
+                        <h2>Site Pronto</h2>
                         <p>
                             Agora a sua Landing Page profissional e moderna
                             está 100% finalizado e pronto para o seu uso.
                         </p>
-                </div>
-            </section>
+                    </div>
+                </section>
+            </div>
         </article>
 
         <article class="container-p5 reveal fade-bottom">
@@ -213,7 +221,7 @@
             <section>
                 <div class="container">
                     <input type="checkbox" id="chck1">
-                    <label for="chck1">O prazo de entrega do meu projeto?</label>
+                    <label for="chck1">Qual o prazo de entrega do meu projeto?</label>
                     <p>
                         O tempo de entrega depende muito de cada projeto e suas individualidades,
                         mas normalmente o prazo é de 7 a 10 dias para seu site fica pronto.
@@ -269,6 +277,5 @@
         crossorigin="anonymous" referrerpolicy="no-referrer"></script>
     <script src="./main.js"></script>
 </body>
-
 
 </html>
