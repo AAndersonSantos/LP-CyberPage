@@ -584,6 +584,33 @@
 
 /*------------------------- Max Width - 600px -------------------------*/
 @media screen and (max-width: 600px) {
+    .btn-whatsapp{
+        width: 110px;
+        margin-top: 100%;
+        right: 10px;
+        bottom: 20px;
+        position: fixed;
+        text-decoration: none;
+        display: flex;
+        flex-direction: column;
+        text-align: center;
+        z-index: 10;
+    }
+
+    .btn-whatsapp:hover > p{
+        visibility: hidden;
+        opacity: 0;
+    }
+
+    .btn-whatsapp:hover > .triangle-down{
+        visibility: hidden;
+        opacity: 0;
+    }
+
+    .btn-whatsapp a .img-whatsapp{
+        width: 65%;
+    }
+
     main {
         margin-top: 50px;
     }

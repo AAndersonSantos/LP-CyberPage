@@ -14,6 +14,7 @@
         href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.theme.default.min.css"
         integrity="sha512-sMXtMNL1zRzolHYKEujM2AqCLUR9F2C4/05cdbxjjLSRvMQIciEPCQZo++nk7go3BtSuK9kfa/s+a4f4i5pLkw=="
         crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="https://cdn.positus.global/production/resources/robbu/whatsapp-button/whatsapp-button.css"> 
     <title>CyberPage</title>
 </head>
 
@@ -38,6 +39,15 @@
             <button class="btn-section-headear" onclick=" window.location.href='#main' ">QUERO SABER MAIS</button>
         </section>
     </header>
+    
+    <div class="btn-whatsapp">
+        <p>Fale conosco</p>
+        <div class="triangle-down"></div>
+
+        <a target="_blank" href="https://api.whatsapp.com/send?phone=5511973099739&text=Bem%20Vindo"> 
+            <img class="img-whatsapp" src="./img/whatsapp.svg">
+        </a>
+    </div>
 
     <main>
         <article class="container-p1" id="main">
@@ -211,7 +221,7 @@
                 </h2>
                 <p>á partir de:</p>
                 <h3>R$385</h3>
-                <button class="btn-section-headear">SOLICITAR ORÇAMENTO</button>
+                <button class="btn-section-headear" onclick="window.open('https://api.whatsapp.com/send?phone=5511973099739&text=Bem%20Vindo')" >SOLICITAR ORÇAMENTO</button>
             </section>
         </article>
 
