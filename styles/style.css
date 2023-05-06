@@ -422,8 +422,8 @@ main .container-p3 .titulo-responsive {
 }
 
 main .owl-theme {
-    margin-top: 4.39vw;
-    width: 95vw;
+    margin-top: 2.39vw;
+    width: 75vw;
     margin-left: auto;
     margin-right: auto;
 }
@@ -434,11 +434,11 @@ main .owl-theme .item {
 
 main .container-p3 .owl-prev {
     position: absolute;
-    top: 15.37vw;
-    left: -1.83vw;
+    top: 26.37vw;
+    left: -4.83vw;
     height: 2.92vw;
     width: 2.92vw;
-    font-size: 2.56vw !important;
+    font-size: 3vw !important;
     color: #B5B5B5 !important;
     display: flex !important;
     align-items: center !important;
@@ -453,11 +453,11 @@ main .container-p3 .owl-prev:hover {
 
 main .container-p3 .owl-next {
     position: absolute;
-    top: 15.37vw;
-    right: -1.83vw;
+    top: 26.37vw;
+    right: -4.83vw;
     height: 2.92vw;
     width: 2.92vw;
-    font-size: 2.56vw !important;
+    font-size: 3vw !important;
     color: #B5B5B5 !important;
     display: flex !important;
     align-items: center !important;
@@ -471,7 +471,7 @@ main .container-p3 .owl-next:hover {
 }
 
 main .container-p3 .owl-dots {
-    margin-top: 3.66vw;
+    margin-top: -2.66vw;
 }
 
 /*------------------------- Container-P4 -------------------------*/
